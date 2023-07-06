@@ -7,6 +7,18 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <style>
+    /*
+    p.hamlet{
+        background-color:yellow; 
+    }
+    */
+ /*
+    #play span{
+        background-color: blue;
+    }
+    */
+  </style>
  </head>
  <body>
      <header>
@@ -19,15 +31,35 @@
      </header>
      
    <main class="wrapper">
-    <p>Content goes here</p>
+        <div id="play">
+            <p><span data-actor="yoda">Yoda: With you the force is strong...
+                young Senator. To see you alive
+                brings warm feeling to my heart.</span></p>
+            <p><span data-actor="padme">Padme: 	Thank you, Master Yoda. Do you
+                have any idea who was behind
+                the attack?</span></p>
+            <p><span data-actor="mace windu">Mace Windu: 	Our intelligence points to
+                disgruntled spice miners, on
+                the moons of Naboo.</span></p>
+            <p><span data-actor="padme">Padme: 	I don't wish to disagree but I
+                think that Count Dooku was behind
+                it.</span></p>
+            <p><span data-actor="mace windu">Mace Windu: You know, M'Lady, Count Dooku
+                was once a Jedi. He wouldn't
+                assassinate anyone, it is not in
+                his character.
+            </span></p>
+
+        </div>
      <footer>
       <p><small>&copy; 2021 by 
-          YOUR NAME HERE, All Rights Reserved ~ 
+          Angelo Nicolo, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
     </footer>
   </main>
   <script src="js/main.js"></script>
+  <script src="js/dom-play.js"></script>
  </body>
 </html>
